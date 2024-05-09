@@ -1,0 +1,24 @@
+{
+  "name": "meet.google.comautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter mochawesome --timeout -0 ./test/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.20.0"
+  },
+  "dependencies": {
+    "chai": "^5.1.0"
+  }
+}
